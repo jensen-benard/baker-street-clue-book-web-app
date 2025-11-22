@@ -12,6 +12,8 @@ async function initClueData() {
         maxClueNumber = clueData.maxClueNumber;
         minClueNumber = clueData.minClueNumber;
         timerMusic = new Audio(clueData.timerMusicFile);
+
+        document.getElementById("submit").disabled = false;
     } catch (error) {
         console.error("Failed to load clue_data.json: ", error);
     }

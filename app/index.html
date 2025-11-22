@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            221B Baker Street: Clue Book
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script> 
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="title">
+                <h1>
+                    221B Baker Street
+                </h1>
+                <h2>
+                    Clue Book
+                </h2>
+            </div>
+            <div id="input-section">
+                <p id="error-message"></p><br><br>
+                <input type="text" id="clue-number" placeholder="clue number"><br><br>
+                <button id="submit" onclick="registerClueNumber()">Submit</button>
+            </div>
+
+            <div id="clue-section">
+                <div id="timer-section">
+                    <div class="spacer"></div>
+                    <p id="timer-value">30</p>
+                    <button id="cancel" onclick="onTimerFinish()">Cancel</button>
+                </div>
+                <div id="clue-images">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

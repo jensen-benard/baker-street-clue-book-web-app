@@ -21,6 +21,16 @@ async function initClueData() {
 
 initClueData();
 
+document.addEventListener("DOMContentLoaded", () => {
+    const inputBox = document.getElementById("clue-number");
+
+    inputBox.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            registerClueNumber();
+        }
+    });
+});
+
 
 function isValidClueNumber(value)
 {
@@ -30,26 +40,26 @@ function isValidClueNumber(value)
 
 function registerClueNumber()
 {
-    let clueNumberInput = document.getElementById("clue-number");
-    let clueNumberValue = clueNumberInput.value.trim();
+    let inputBox = document.getElementById("clue-number");
+    let clueNumber = inputBox.value.trim();
     let errorMessage = document.getElementById("error-message");
 
-    if(!isValidClueNumber(clueNumberValue)) {
-        clueNumberInput.value = "";
+    if(!isValidClueNumber(clueNumber)) {
+        inputBox.value = "";
         errorMessage.textContent = "Please enter a valid clue number.";
         return;
     }
 
-    clueNumberInput.value = "";
+    inputBox.value = "";
     errorMessage.textContent = "";
-    clueNumberValue = parseInt(clueNumberValue);
+    clueNumber = parseInt(clueNumber);
 
 
     let matchesFound = false;
     clueData.imageFilenames.forEach(filename => {
         [startClue, endClue] = filename.match(/\d+/g).map(Number)
 
-        if (clueNumberValue >= startClue && clueNumberValue <= endClue) {
+        if (clueNumber >= startClue && clueNumber <= endClue) {
             let img = document.createElement("img");
             img.src  = `data/images/${filename}`;
             let clueImages = document.getElementById("clue-images");

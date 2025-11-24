@@ -75,8 +75,6 @@ After entering a valid clue number and pressing the submit button, you will be g
 
 ![clue page image](images/clue_page.jpg)
 
-The clue page has been redacted, that's why it looks mostly black.
-
 In this page, an audio file will be played while the timer counts down. The red text is the count down timer. 
 
 

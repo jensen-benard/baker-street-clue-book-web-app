@@ -69,7 +69,7 @@ The [app/data/clue_data.json](app/data/clue_data.json) contains elements that ca
 
 ## Usage
 Demo of the web app on a phone.
-![](assets/clue_book_demo.webm)
+[Video Link](assets/clue_book_demo.webm)
 
 ## Credits
 

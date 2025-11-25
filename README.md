@@ -68,8 +68,23 @@ The [app/data/clue_data.json](app/data/clue_data.json) contains elements that ca
   If you adjust ```timerDuration```, make sure to adjust ```timerMusicStartTime``` so that the audio file ends when the timer ends.
 
 ## Usage
-Demo of the web app on a phone.
-[Video Link](assets/clue_book_demo.webm)
+Demo of the web app on a phone -->
+[Video Link (with sound)](assets/clue_book_demo.webm)
+
+Once the web app is running, you will be greeted with the following main page:
+![main page image](assets/main_page.jpg)
+
+After entering a valid clue number and pressing the submit button, you will be greeted with the following page:
+
+![clue page image](assets/clue_page.jpg)
+
+In this page, an audio file will be played while the timer counts down. The red text is the count down timer. 
+
+
+
+
+
+
 
 ## Credits
 

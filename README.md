@@ -69,7 +69,7 @@ The [app/data/clue_data.json](app/data/clue_data.json) contains elements that ca
 
 ## Usage
 Demo of the web app on a phone -->
-[Video Link (with sound)](assets/clue_book_demo.webm)
+[Video Link (with sound)](assets/clue_book_demo.mp4)
 
 Once the web app is running, you will be greeted with the following main page:
 ![main page image](assets/main_page.jpg)

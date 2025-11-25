@@ -17,7 +17,7 @@ The idea is for one phone/device to host the web app, while all other users acce
 ### Clue Images
 You'll notice that [app/data/images/](app/data/images/) is empty. This is intentional. You'll have to scan each page from the physical clue book and place them in this folder in the following format:
 
-![clue images directory example](images/clue_images_example.jpg)
+![clue images directory example](assets/clue_images_example.jpg)
 
 Notice how every file is formatted as:
 

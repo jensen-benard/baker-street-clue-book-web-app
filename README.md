@@ -32,7 +32,7 @@ In my version of 221B Baker Street, the clue book ranges from ```1``` to ```1050
 ### Configuration
 The following directory and file are configurable:
 - Inside [app/data/audio/](app/data/audio)
-- [app/data/clue_data.json](app/data/clue_data.json)
+- [app/data/config.json](app/data/config.json)
 
 #### Audio
 The [app/data/audio/](app/data/audio) directory contains two audio files by default. You are welcome to change these to alternate audio files.
@@ -40,7 +40,7 @@ The [app/data/audio/](app/data/audio) directory contains two audio files by defa
 One audio file is played during the timer countdown while the other is played after the timer ends. This audio file typically only lasts 2 to 4 seconds while the former should last as long as the timer.
 
 #### JSON
-The [app/data/clue_data.json](app/data/clue_data.json) contains elements that can be configured by the user:
+The [app/data/config.json](app/data/config.json) contains elements that can be configured by the user:
   ```
   {
     "timerMusicFile": "data/audio/quiz-countdown.mp3",

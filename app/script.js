@@ -7,7 +7,7 @@ let timer = null;
 
 async function initClueData() {
     try {
-        const result = await fetch("data/clue_data.json");
+        const result = await fetch("data/config.json");
         clueData = await result.json();
         maxClueNumber = clueData.maxClueNumber;
         minClueNumber = clueData.minClueNumber;
@@ -15,7 +15,7 @@ async function initClueData() {
 
         document.getElementById("submit").disabled = false;
     } catch (error) {
-        console.error("Failed to load clue_data.json: ", error);
+        console.error("Failed to load config.json: ", error);
     }
 }
 

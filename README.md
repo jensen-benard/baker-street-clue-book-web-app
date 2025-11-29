@@ -17,7 +17,7 @@ The idea is for one phone/device to host the web app, while all other users acce
 ### Clue Images
 You'll notice that [app/data/images/](app/data/images/) is empty. This is intentional. You'll have to scan each page from the physical clue book and place them in this folder in the following format:
 
-![clue images directory example](images/clue_images_example.jpg)
+![clue images directory example](assets/clue_images_example.jpg)
 
 Notice how every file is formatted as:
 
@@ -91,3 +91,7 @@ In this page, an audio file will be played while the timer counts down. The red 
 [bell-ringing.mp3](app/data/audio/bell-ringing.mp3) Sound Effect by [freesound_community](https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=98323) from [Pixabay](https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=98323")
 
 [quiz-countdown.mp3](app/data/audio/quiz-countdown.mp3) Music by [Paolo Argento](https://pixabay.com/users/paoloargento-38603296/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=194417) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=194417)
+
+This is an unofficial fan-made companion app for the board game 221B Baker Street.
+221B Baker Street is a trademark of its respective rights holders.
+This project is not affiliated with, endorsed by, or sponsored by the original publishers.
